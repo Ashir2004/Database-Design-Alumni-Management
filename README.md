@@ -32,24 +32,24 @@ This repository contains the **complete database design** for an **Alumni Manage
 
 - 📂 DataBaseDesign_FAMS/  
 - ├── 📁 DATABASE DIAGRAMS/ # Contains all database diagrams  
-- | ├── 📁 Blue Print Diagram/
-- │ | ├── ├── FAMS_ERD_BluePrint_pic01.png
-- │ | ├── ├── FAMS_ERD_BluePrint_pic02.png
-- | ├── 📁 ER-Diagram/
-- │ | ├── ├── FAMS_ERD_pic01.png
-- │ | ├── ├── FAMS_ERD_pic02.png
-- │ | ├── ├── FAMS_ERD_pic03.png
-- │ | ├── ├── FAMS_ERD_pic04.png
-- | ├── 📁 ER-Diagrams Cardinality Constraint/
-- │ | ├── ├── FAMS_ERD_pic01_CardCons.png
-- │ | ├── ├── FAMS_ERD_pic02_CardCons.png
-- │ | ├── ├── FAMS_ERD_pic03_CardCons.png
-- │ | ├── ├── FAMS_ERD_pic04_CardCons.png
+- │ ├── 📁 Blue Print Diagram/
+- │ │ ├── ├── FAMS_ERD_BluePrint_pic01.png
+- │ │ ├── ├── FAMS_ERD_BluePrint_pic02.png
+- │ ├── 📁 ER-Diagram/
+- │ │ ├── ├── FAMS_ERD_pic01.png
+- │ │ ├── ├── FAMS_ERD_pic02.png
+- │ │ ├── ├── FAMS_ERD_pic03.png
+- │ │ ├── ├── FAMS_ERD_pic04.png
+- │ ├── 📁 ER-Diagrams Cardinality Constraint/
+- │ │ ├── ├── FAMS_ERD_pic01_CardCons.png
+- │ │ ├── ├── FAMS_ERD_pic02_CardCons.png
+- │ │ ├── ├── FAMS_ERD_pic03_CardCons.png
+- │ │ ├── ├── FAMS_ERD_pic04_CardCons.png
 - ├── 📁 SCHEMA/ # Contains database schema files  
 - │ ├── FAMS_Schema.sql  
 - ├── 📁 data modeler/ # Oracle Data Modeler files  
 - │ ├── FAMS_ERD.dmd
-- | ├── 📁 FAMS_ERD/ #Contains all the protocols for SQL Data modeler 
+- │ ├── 📁 FAMS_ERD/ #Contains all the protocols for SQL Data modeler 
 - ├── 📁 Document/ # Contains reports and documentation  
 - │ ├── DataBase Design Report.pdf  
 - ├── README.md # Project overview and documentation  
