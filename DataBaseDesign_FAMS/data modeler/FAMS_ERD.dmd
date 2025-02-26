@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FAMS_ERD" id="1F145B56-02F1-A00A-BC10-D63DB7E9410A" version="3.5">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:14:49 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1F145B56-02F1-A00A-BC10-D63DB7E9410A</designId>
+</OSDM_Design>
