@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E1A4C90-2744-34AC-C533-68E0351243B0" name="Forum">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>EAC713F9-757B-8008-D87D-5F3428A1D720</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Forum_ID" id="4B12DAB1-1913-F4C1-6E58-5A35173A56AF">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>3B0C91D8-9880-5911-80DA-BF6A51F74C8C</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forum_Name" id="C650219A-8472-318B-4D8B-060381F357FA">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>8692D671-D643-B06E-D395-7FE4C1C08B5C</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A252741E-1084-C693-10D7-B39BD2F9538C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forum_Description" id="CE3050C4-3363-FFB7-80EC-1562D2EA8F08">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>4668E54C-CC89-4ABF-024A-B936DADC3D9D</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forum_DateCreated" id="8D94011F-9D95-F911-63E3-F1A96A20685D">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>C8998A54-AE71-A94C-FE84-5A9875F03A40</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forum_CreatedBy" id="D3FF2A3D-161F-6390-8239-D5D7759E648A">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 15:38:55 UTC</createdTime>
+<generatorID>E9D689B5-F13C-6101-720E-01E2E80906B4</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4A4D2AA-817C-4A94-456E-50D1808E6E1E" referredColumn="58BEAB33-ADC1-2B61-FE96-4E6BBFDCFFF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F71E05E-4955-1DB3-D47E-B38081B5AD7A" name="Forum_PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>35B62654-C7A2-4563-1BDF-C1DAA0D21E0B</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B12DAB1-1913-F4C1-6E58-5A35173A56AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E192DA0-076B-A56C-59AE-653EB060F22D" name="Forum_User_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 15:38:55 UTC</createdTime>
+<generatorID>E3E13F34-9BE0-8841-5753-4B7766E78E25</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3FF2A3D-161F-6390-8239-D5D7759E648A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

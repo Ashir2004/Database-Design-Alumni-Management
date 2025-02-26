@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39DF41A6-49A5-AA6E-A95D-DC3738B0BD64" name="Mentorship">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>DDD19C47-4D0F-E3F5-9C70-0FCA6045F653</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mentorship_ID" id="DF08C9B6-8AE1-C279-39FA-B6E98AF4822D">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>46F4CA42-F917-6804-3FE3-E7D5175AF23E</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mentorship_StartDate" id="EFEC6E2C-1440-956D-882A-B5DDC1C505DF">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>BC67394F-1608-995F-B351-B6D063C7F67B</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mentorship_EndDate" id="86E3752B-99E4-1E20-1BFF-B7BAA551DE46">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>4265DE37-245F-8A47-8693-DD67B466DF89</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mentorship_Status" id="00FC874B-51DE-ED24-4562-3150B5FFCED1">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>3A67B644-8FCF-CBF9-0427-043C571FBFDF</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mentorship_Objectives" id="5D1FA86B-ADFA-F4C9-95FA-6816119716C5">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>BEF2DE58-7F3A-D47E-DCB0-F12268B69857</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mentorship_Notes" id="BF35C56C-2CA3-37F5-8DCB-1153E1E68104">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>428DCAAE-B6F3-D97B-862C-02AC6F58B0ED</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mentor_ID" id="FC0423AB-A5A9-357D-F65D-3A7FEFC8BC78">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>4709FF2F-25EF-F202-79CF-136CA4535A18</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94315FA6-03C6-B48E-A589-3FED72803322" referredColumn="58BEAB33-ADC1-2B61-FE96-4E6BBFDCFFF8"/>
+</associations>
+</Column>
+<Column name="Mentee_ID" id="FD27A411-ADB8-6637-7AC4-F95EBBFC410C">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>0159C324-6C94-1560-1875-ABC6BF0CB327</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42167654-1B94-F3A0-BF77-E82E9263D112" referredColumn="58BEAB33-ADC1-2B61-FE96-4E6BBFDCFFF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F09BA1C-1C00-19AA-92D9-D52B4112EB89" name="Mentorship_PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>7046D122-6C06-2307-7E77-4A27E0EE3CCE</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF08C9B6-8AE1-C279-39FA-B6E98AF4822D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6241B2B1-D7AE-D0D5-C2EE-EAFA5175558B" name="Mentorship_User_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>166830EE-B1AE-481F-C324-B853414FEC9D</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0423AB-A5A9-357D-F65D-3A7FEFC8BC78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1D751A1-0760-1773-2681-B9665FDFE64E" name="Mentorship_User_FKv2">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>7C1C37DC-0A6F-1041-0F13-96B7A19D25BD</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD27A411-ADB8-6637-7AC4-F95EBBFC410C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C86A3F64-87B7-1E19-23FD-878AA43734A4" containerWithKeyObject="3780261D-D7B2-708E-EE02-C95E9465A1D0" localFKIndex="71FC9DE5-581D-E1B8-2005-CC731B15FD05" name="Registration_Event_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:25:29 UTC</createdTime>
+<generatorID>2423E956-22FE-3700-62AC-AE190042354B</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<referredTableLongName>Event</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AB5A031-1C70-731F-6479-D731F680853D</referredTableID>
+<keyObject>4AC6BEF4-AD62-FEDC-9F77-DED0E0969D78</keyObject>
+<referredKeyID>4AC6BEF4-AD62-FEDC-9F77-DED0E0969D78</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Event_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

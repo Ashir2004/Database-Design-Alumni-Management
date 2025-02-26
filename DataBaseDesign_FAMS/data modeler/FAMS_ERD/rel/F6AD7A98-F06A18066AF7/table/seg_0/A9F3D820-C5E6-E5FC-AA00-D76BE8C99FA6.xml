@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9F3D820-C5E6-E5FC-AA00-D76BE8C99FA6" name="Donation">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>5B5B13B0-090F-FE75-18C1-B1193D91AA2E</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Donation_ID" id="2BB1B752-AEAB-6361-18D2-86B64C67CBA1">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>8B90D3D9-652A-2B4B-2BEC-00B3D10C0C79</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_Title" id="221F614F-1EB8-14B4-1F8B-4ADA3F6AAE92">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>2327F10A-B343-080D-927D-9FAC27CAAE0F</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A252741E-1084-C693-10D7-B39BD2F9538C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_description" id="F7056A8E-C7AB-0368-CBD2-C910BD1D7854">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>4F04636C-87B8-86E7-7588-F1D15B0DCFAF</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_TargetedAmount" id="E5CFE54D-2F4D-C111-0C28-61FCDE8AA0E8">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>2718D323-1D15-2A71-EE1A-59EA98665AF7</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_AmountRaised" id="F59B7DF9-D8EC-514A-DBA2-470664C5A972">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>BAA8DA01-99C8-FCDD-D78D-5E9D16040412</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_Date" id="DA6E6E8E-1CBB-795A-F6A7-91A555680E26">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>F96EDE7C-F770-25D3-4BA5-3CFD777FFF83</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_deadline" id="DD535F21-3C03-AD59-0768-17E7643A77A1">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>A34CE2E2-31B6-69D1-8987-57BB46F3FD49</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_Status" id="8D638FBF-57CC-9474-7BE3-C0BFEC160F5F">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>0E645ABF-12A6-2C2E-ACB4-8A9CFCFA84AE</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_Category" id="9DBA7AD0-C88C-309A-FA12-8719313A563C">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>DE993A83-2F34-1D3C-EBCB-13A4F3C5EF0E</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A252741E-1084-C693-10D7-B39BD2F9538C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Donation_UserID" id="0FDFFA54-19FC-363F-169F-B87F3FEB6A14">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>1FBE67B6-F1D0-0081-24AF-34713C0B6D18</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4FA1416-6E6C-1F49-AD07-181A9FABD936" referredColumn="58BEAB33-ADC1-2B61-FE96-4E6BBFDCFFF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A997371A-BCF6-023A-94B7-3EA806A203E6" name="Donation_PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>957B7EE4-247D-7CCE-F9F0-2B17A572A050</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BB1B752-AEAB-6361-18D2-86B64C67CBA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24FFBAD7-5E83-DA7E-2E01-C795CEE7ABF4" name="Donation_User_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>58E22585-681E-5CB0-DC8C-A346B99D5562</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FDFFA54-19FC-363F-169F-B87F3FEB6A14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

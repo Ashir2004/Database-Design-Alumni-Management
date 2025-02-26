@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32122FDA-32D8-D7C0-1627-BBA884B1BA4D" containerWithKeyObject="C465BAD7-7A43-23A3-0378-DC985770069F" localFKIndex="3D848BC5-B155-C303-86E5-96E6A7122D53" name="Collaboration_Project_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>FEBA08E5-03B7-7FBA-0E66-011FFB4B6912</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<referredTableLongName>Project</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9EA2EA59-23EB-058A-C5D7-8BD30A6F2314</referredTableID>
+<keyObject>295D3FAC-5186-D1C1-5922-F2364372F0F5</keyObject>
+<referredKeyID>295D3FAC-5186-D1C1-5922-F2364372F0F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Project_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

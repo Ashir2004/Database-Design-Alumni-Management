@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F6AD7A98-A8EB-0779-347D-F06A18066AF7" mainViewID="57B82FA9-3D3D-2DDB-69D5-C577C7ADC41F">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:14:53 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

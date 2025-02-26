@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="7B6729C6-131D-96A0-3719-4F9D527F65F8">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:14:49 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

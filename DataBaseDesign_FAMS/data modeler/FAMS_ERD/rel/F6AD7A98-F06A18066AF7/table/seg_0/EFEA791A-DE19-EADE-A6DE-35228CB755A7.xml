@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFEA791A-DE19-EADE-A6DE-35228CB755A7" name="FeedbackDetails">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>0AA3E2B1-757F-ADDB-E492-ADF63D2A58B8</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FeedbackDetails_ID" id="0748A033-DE1E-D084-67AF-8E3CDF915B49">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>B455B2CE-D23A-6EAE-2D6A-9B7AE9BA2B0A</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeedbackDetails_Text" id="D846AFBF-3360-8EDC-30D3-984945FB1229">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>31A628D9-2B71-AD20-8DF7-A3BEBB83A11D</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeedbackDetails_Rating" id="DABC5964-5619-D19A-B859-DD9C502E9646">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>D93C3B85-2FF7-7219-7DD7-049574FFB037</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeedbackDetailsk_Date" id="B27F3D49-AE2B-6890-92B9-FECB21BD26E8">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>9D3A315E-5493-CE2D-CFB9-48E441178547</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeedbackDetails_FeedbackID" id="FC9E63E9-5EA4-C5F2-7972-FA0AA1EDF3DA">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>B3BF6B40-B103-FEAB-7F3C-961DA540DA6A</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CB0FAE9-DCA3-0357-CDE9-7B2C16B3BB24" referredColumn="25493D49-B3AC-C4B1-39A8-7DA337D7BCD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B110E407-967B-33A6-BB08-DB260C8424E6" name="FeedbackDetails_PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>84947D12-66EF-175F-9BFA-32509DDAC418</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0748A033-DE1E-D084-67AF-8E3CDF915B49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE2148C6-EEA3-7452-7159-DB938179466D" name="FeedbackDetails__IDX">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CF492BC0-D7BC-FC9B-9A23-8C6FDD7ED9D4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FC9E63E9-5EA4-C5F2-7972-FA0AA1EDF3DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="827771B0-5CED-9247-9127-D723B178C571" name="FeedbackDetails_Feedback_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>CF492BC0-D7BC-FC9B-9A23-8C6FDD7ED9D4</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC9E63E9-5EA4-C5F2-7972-FA0AA1EDF3DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

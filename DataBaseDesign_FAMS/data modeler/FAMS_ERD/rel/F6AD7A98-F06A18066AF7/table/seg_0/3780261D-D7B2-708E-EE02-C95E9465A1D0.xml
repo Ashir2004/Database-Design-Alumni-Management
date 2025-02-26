@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3780261D-D7B2-708E-EE02-C95E9465A1D0" name="Registration">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>3CFA5CE3-351A-3D10-E948-02D024CA9B31</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Registration_ID" id="5B7A3B87-B3A8-BC12-689A-7E57FB471F5E">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>463024AE-5B8A-7251-C1C4-0C43184796F0</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_Status" id="8F4B7E6A-79E6-2F2D-374C-E9D8359F2C36">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>67F97BD6-DDA5-16C4-493A-3638C5FC55DB</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_Date" id="2F4DCBA8-76A9-A184-E171-D274A6A40753">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>763525D9-DC9F-D60A-162D-A171FADE8CA6</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_EventID" id="2B943403-65AD-5289-CF18-BE7EA6B603E5">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:25:29 UTC</createdTime>
+<generatorID>EE03F6B0-E93C-6526-BB36-20E2875AD6A0</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C86A3F64-87B7-1E19-23FD-878AA43734A4" referredColumn="7EFD582F-0CB5-44A1-375E-F93FC397F7FF"/>
+</associations>
+</Column>
+<Column name="Registration_UserID" id="F603FF0D-0B1E-6B12-53F7-CFE0487F4E7E">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:25:29 UTC</createdTime>
+<generatorID>BC16B329-FBE2-76FE-4230-25918D7F220E</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9765200A-066A-6BB7-BA5C-B627D6FC87B2" referredColumn="58BEAB33-ADC1-2B61-FE96-4E6BBFDCFFF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B414E45F-5EB3-E1E0-2E83-A395A6CBDE15" name="Registration_PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>9C6BC14D-4FC9-B559-033F-FE66F3462AC1</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B7A3B87-B3A8-BC12-689A-7E57FB471F5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71FC9DE5-581D-E1B8-2005-CC731B15FD05" name="Registration_Event_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:25:29 UTC</createdTime>
+<generatorID>2423E956-22FE-3700-62AC-AE190042354B</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B943403-65AD-5289-CF18-BE7EA6B603E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38E1B830-58C0-5EAC-1B63-F4F72C2D6A79" name="Registration_User_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:25:29 UTC</createdTime>
+<generatorID>BD3F3802-C953-4D7F-5A9F-DFDA93EAF625</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F603FF0D-0B1E-6B12-53F7-CFE0487F4E7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

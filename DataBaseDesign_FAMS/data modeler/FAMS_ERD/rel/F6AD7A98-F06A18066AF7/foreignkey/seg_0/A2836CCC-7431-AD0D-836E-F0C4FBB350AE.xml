@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2836CCC-7431-AD0D-836E-F0C4FBB350AE" containerWithKeyObject="C465BAD7-7A43-23A3-0378-DC985770069F" localFKIndex="F0BAD88C-1EFA-29B9-703B-4C4BCEA4961A" name="Collaboration_User_FK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:18:13 UTC</createdTime>
+<generatorID>0E495577-9EDE-900B-BA85-7E9C7D64FC3C</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3EB0E89F-38BB-1BF7-A216-D87960DBCA67</referredTableID>
+<keyObject>15F5E655-3A85-EE43-CEE9-7F1A95EF5064</keyObject>
+<referredKeyID>15F5E655-3A85-EE43-CEE9-7F1A95EF5064</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>User_ID,Registration_Registration_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
