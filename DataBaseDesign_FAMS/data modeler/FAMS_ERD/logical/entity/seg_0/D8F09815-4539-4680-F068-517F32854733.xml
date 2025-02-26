@@ -1,0 +1,252 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8F09815-4539-4680-F068-517F32854733" name="User">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:48:05 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="User_ID" id="43602F42-9655-6853-0FC9-2F1BEB036FA8">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:48:12 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_CNIC" id="0880B06E-A138-B8D0-415A-31883FE3F019">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:48:34 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_FullName" id="6B4DAF81-E0D2-ED01-4748-9BE65AC99361">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:50:02 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A252741E-1084-C693-10D7-B39BD2F9538C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_NuID" id="451B583C-A06E-C8E2-AB8C-0E0AE3B8EA4A">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:50:16 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_DoB" id="58402C7A-78BA-A607-EE81-606CDD0ACC81">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:51:04 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_EmailID" id="F2F35766-00A1-63E2-66EC-6A915394E1C9">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:51:40 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_MobileNo" id="C37E454D-8791-8DE9-C8FC-A8A84EF10A07">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:52:06 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_HashedPassword" id="9D940904-0BBD-6E97-F8B4-B01A6DB527FF">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:55:38 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Campus" id="70ADF642-9ACD-C2D7-8CFA-937E5FA73876">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:56:12 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_ProfilePicture" id="3B374B61-04AC-BD57-7496-ADB32F414CC9">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:56:43 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Role" id="5527FAE7-B05A-D4BA-4945-7078616246FA">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:58:13 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_isActive" id="26B63F09-2D45-6D82-16F8-B55C513332FF">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:58:55 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_DateCreated" id="AA301C64-B168-97EB-C980-37D4F122C451">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:59:20 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_LastUpdated" id="D04EBC8F-9075-CDE1-BDFD-D8C58217B836">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:59:42 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Department" id="82B0E51D-12FC-8CC2-73C1-77D719E4EACA">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:00:01 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_CurrentCountry" id="281ABDE1-269C-5A95-AD14-992191D0EA10">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:00:57 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_CurrentCity" id="C2C2AC4E-352B-5278-0D8E-7E17C8F8C43F">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:01:39 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E947D936-7E35-E418-F099-CA2E6BE72C9A" name="User PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:48:22 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43602F42-9655-6853-0FC9-2F1BEB036FA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EventReg" directorySegmentName="seg_0" id="2423E956-22FE-3700-62AC-AE190042354B">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:24:52 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<sourcePk>CECA44BF-6EE9-9FDD-3806-7BE26B695842</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A241A111-3A79-7F3F-C9CC-363C66DB6D31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3CFA5CE3-351A-3D10-E948-02D024CA9B31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

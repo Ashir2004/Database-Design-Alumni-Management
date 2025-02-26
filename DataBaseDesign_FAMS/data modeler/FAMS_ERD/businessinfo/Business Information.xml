@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3436C342-5933-9813-69A1-C1B6A404218E">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:14:49 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

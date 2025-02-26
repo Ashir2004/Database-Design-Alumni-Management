@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="990F2BE6-8ACE-B36A-A112-F94BD6D7FCA1" name="Review">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:34:44 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Review_ID " id="A78793A0-E6D4-4528-2C89-27DB66E0CC64">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:34:52 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Review_Text" id="42880E2D-DA4A-D252-E799-87121D44AE74">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:35:34 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Review_Rating " id="83EA93A6-DF65-E923-B4A6-EAC5874367E6">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:35:51 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Review_Date " id="0C55C075-0B66-1991-A219-C8458B16542E">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:36:10 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_ID" id="9ED00CF8-5542-02C3-25AD-E756D1C4A7C9">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:09:04 UTC</createdTime>
+<generatorID>9F2B96AF-A3B0-0B4D-EE49-D0A4EC900407</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<referedAttribute>43602F42-9655-6853-0FC9-2F1BEB036FA8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_ID1" id="E75D42CB-37CB-8A0A-139E-36F420D6B72C">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:09:29 UTC</createdTime>
+<generatorID>9C71E749-0207-B6EC-B07C-AF362C7E2BD0</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<referedAttribute>43602F42-9655-6853-0FC9-2F1BEB036FA8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C7C99CC-717D-EC2C-5EB3-1DF51349083E" name="Review PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:35:01 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A78793A0-E6D4-4528-2C89-27DB66E0CC64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

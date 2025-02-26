@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A241A111-3A79-7F3F-C9CC-363C66DB6D31" name="Event">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:07:37 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Event_ID" id="5FAD983E-34A0-D0A2-CA3C-DD0105083996">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:07:43 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Event_Name" id="466E7E0C-D850-425A-6494-DBD6383AEDA1">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:07:57 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A252741E-1084-C693-10D7-B39BD2F9538C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Event_Description" id="51B5B9E0-BDB7-6813-A119-39C96DB26884">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:08:14 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Event_Date" id="AF61993D-B91A-CED1-4CD5-F67C561912D6">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:08:38 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Time" id="B985F777-C06D-7009-EFD7-E452FFF3EA22">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:08:54 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Location" id="82B9BDDA-8F2F-C0A8-5785-04F111E57FA3">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:09:17 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Event_MaxParticipants" id="3609531C-ABB7-09A6-86F1-BA36C5CF3C2A">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:10:06 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Event_RegistrationDeadline" id="B8F68EDC-B51E-8110-C44D-024327819B38">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:10:28 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Banner" id="FA837F77-30F0-0AA8-4ABA-EA5DEAA6CCEC">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:10:42 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ParticipantCount" id="86483301-8F25-A5C1-E968-A5726F787B9C">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:10:58 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Event_CreatedDate" id="71CC0D54-913E-3DDD-2963-9B73A33566B2">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:11:19 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Type" id="EF1AA748-54A6-860C-B866-061C54AC6A61">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:11:37 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_ID" id="D584FE4A-74E6-9CD6-FBAC-A7D944666D0C">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:55:40 UTC</createdTime>
+<generatorID>E3FA2F84-73F2-AD4C-512E-8F3D644E07D6</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<referedAttribute>43602F42-9655-6853-0FC9-2F1BEB036FA8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CECA44BF-6EE9-9FDD-3806-7BE26B695842" name="Event PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:07:54 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FAD983E-34A0-D0A2-CA3C-DD0105083996</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

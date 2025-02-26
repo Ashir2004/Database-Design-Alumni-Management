@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E25F023-7B59-E87B-6AED-319C133A9FB3" name="Student">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:05:41 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Student_ID" id="9DCC4AAE-D5CC-7A75-F6AF-3312FE5A2E56">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:05:49 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Student_CurrentYear" id="BCE5DE1D-8D66-5670-DBE7-6E86349E7774">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:06:12 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Student_CurrentSemester" id="D929EDA0-1E23-65D5-5558-E5F7357C996E">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:06:46 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Student_GPA" id="00FD0A1F-E919-FF74-1560-6ECA4F2A6F0F">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:07:16 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_ID" id="B1E41859-304D-5881-BC1B-C75614A4DA02">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:54:58 UTC</createdTime>
+<generatorID>288354E2-44C1-4F88-F8B8-EACB4F0DF8BC</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<referedAttribute>43602F42-9655-6853-0FC9-2F1BEB036FA8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E63882D-10DB-9D55-9091-3875B1253577" name="Student PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:06:01 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DCC4AAE-D5CC-7A75-F6AF-3312FE5A2E56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

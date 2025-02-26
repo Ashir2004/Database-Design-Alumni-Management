@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6586FA75-691F-4F31-4767-103303393D28" name="Alumni">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:02:19 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Alumni_ProfileID" id="6F37BE00-7799-522A-3796-E452708F1E7D">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:02:26 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alumni_Organization" id="D44FE4DC-591D-4A20-AFFC-D71F502E01BB">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:03:22 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alumni_CurrentPosition" id="58755FA2-A567-9FF7-60CD-6C12AB81B1E4">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:03:52 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alumni_LinkedInProfile" id="CCFEA558-55C3-568E-F047-B3CB0E789B88">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:04:12 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alumni_Industry" id="CBFAB1A6-A602-9230-786F-0C280A995CD3">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:04:36 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alumni_ProfessionalSummary" id="EFB6B92A-99C4-E91C-7BC7-957FB2257D5C">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:05:08 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alumni_PrivacySettings" id="F6AEE763-7A2D-8BE8-92D1-CF9F0B3ED179">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:05:22 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>756A99DD-4675-EDBE-EDD0-2F172A88DE28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_ID" id="31A57103-E81B-639A-69D4-A792EB27B819">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:54:23 UTC</createdTime>
+<generatorID>EFAD139E-04C1-03BC-DE80-B8FC3F11954D</generatorID>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<referedAttribute>43602F42-9655-6853-0FC9-2F1BEB036FA8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8D32B2D-7709-6FD4-FAC7-8ACC58DB87E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8FEE5C4-C7E9-AD89-2C0E-F1A9F94D1E74" name="Alumni PK">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:02:54 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F37BE00-7799-522A-3796-E452708F1E7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

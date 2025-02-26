@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DC38FC7A-7EA8-C4D5-16EE-85DBEB9C2F27" mainViewID="D2F66682-FC5C-7A2B-9A56-ADDAB4B5ECA4">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 03:14:49 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

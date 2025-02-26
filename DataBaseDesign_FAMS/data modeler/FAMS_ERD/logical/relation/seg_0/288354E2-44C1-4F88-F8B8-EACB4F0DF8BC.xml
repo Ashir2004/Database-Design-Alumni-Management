@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CanBev2" directorySegmentName="seg_0" id="288354E2-44C1-4F88-F8B8-EACB4F0DF8BC">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 04:54:58 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<sourcePk>E947D936-7E35-E418-F099-CA2E6BE72C9A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8F09815-4539-4680-F068-517F32854733</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9E25F023-7B59-E87B-6AED-319C133A9FB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

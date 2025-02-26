@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hasv3" directorySegmentName="seg_0" id="FEBA08E5-03B7-7FBA-0E66-011FFB4B6912">
+<createdBy>Tesla Laptops</createdBy>
+<createdTime>2024-11-20 05:11:07 UTC</createdTime>
+<ownerDesignName>FAMS_ERD</ownerDesignName>
+<engineerTo>
+<item key="F6AD7A98-A8EB-0779-347D-F06A18066AF7" value="true"/>
+</engineerTo>
+<sourcePk>B05E1FFB-3ED1-8DD6-EA28-0E44E847BE8D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7230B153-BA4B-3D0D-1C7F-B040FF4E6AF2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72CEA0AB-8256-EB87-14C0-DA45DAEA8ACC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
